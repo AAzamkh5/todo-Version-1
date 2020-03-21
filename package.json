@@ -4,13 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d views"
   },
   "author": "",
   "license": "ISC",
+  "homepage":"https://AAzamkh5.github.io/todo-Version-1",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^2.7.4",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "gh-pages": "^2.2.0"
   }
 }
